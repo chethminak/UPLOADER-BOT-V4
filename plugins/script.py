@@ -3,14 +3,14 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-👋 Hᴇʏ {} 
+<b>ʜᴇʏ {}  👋🏻
 
-ⵊ Aᴍ Tᴇʟᴇɢʀᴀᴍ URL Uᴘʟᴏᴀᴅᴇʀ Bᴏᴛ.
+ɪ ᴀᴍ ᴛᴇʟᴇɢʀᴀᴍ ᴜʀʟ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ. ꜱᴇɴᴅ ᴍᴇ ᴀ ᴅɪʀᴇᴄᴛ ʟɪɴᴋ ᴀɴᴅ ɪ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀs ᴀ ꜰɪʟᴇ/ᴠɪᴅᴇᴏ...♻️
 
-**Sᴇɴᴅ ᴍᴇ ᴀ ᴅɪʀᴇᴄᴛ ʟɪɴᴋ ᴀɴᴅ ɪ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀs ᴀ ꜰɪʟᴇ/ᴠɪᴅᴇᴏ**
+🌟ᴜsᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ🌟
 
-Usᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ
-
+👨🏻‍💻ᴅᴇᴠʟᴏᴘᴇʀ - [Chethmina Kavishan](https://telegram.me/KING_WMP)
+⚡ᴘᴏᴡᴇʀᴇᴅ ʙʏ - [CK4U2](https://telegram.me/CK4U2)</b>
 """
     HELP_TEXT = """
 ʟɪɴᴋ ᴛᴏ ᴍᴇᴅɪᴀ ᴏʀ ꜰɪʟᴇ
@@ -35,21 +35,13 @@ sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ
  
 """
     ABOUT_TEXT = """
-**Mʏ ɴᴀᴍᴇ** : [ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ ᴠ4](https://t.me/UploadLinkToFileBot)
-
-**Cʜᴀɴɴᴇʟ** : [NT Bᴏᴛs](https://t.me/NT_BOT_CHANNEL)
-
-**Sᴏᴜʀᴄᴇ** : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://github.com/LISA-KOREA/UPLOADER-BOT-V4)
-
-**Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ** : [NT Bᴏᴛs Sᴜᴘᴘᴏʀᴛ](https://t.me/NT_BOTS_SUPPORT)
-
-**Dᴀᴛᴀʙᴀsᴇ** : [MᴏɴɢᴏDB](https://cloud.mongodb.com)
-
-**Lᴀɴɢᴜᴀɢᴇ :** [Pʏᴛʜᴏɴ 3.12.2](https://www.python.org/)
-
-**Fʀᴀᴍᴇᴡᴏʀᴋ :** [ᴘʏʀᴏɢᴀᴍ 2.0.106](https://docs.pyrogram.org/)
-
-**Dᴇᴠᴇʟᴏᴘᴇʀ :** @LISA_FAN_LK
+<b>🤖 ᴍʏ ɴᴀᴍᴇ : [URL Uploader Bot](https://t.me/URLUploaderCK_Bot)
+👨🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : [Chethmina Kavishan](https://t.me/KING_WMP)
+📡 ꜱᴇᴠᴇʀ : [Render](https://render.com)
+🗄 ᴅᴀᴛᴀʙᴀsᴇ : [MᴏɴɢᴏDB](https://cloud.mongodb.com)
+📝 ʟᴀɴɢᴜᴀɢᴇ : [Python](https://www.python.org/)**
+📚 ʟɪʙʀᴀʀʏ : [Pyrogram](https://docs.pyrogram.org/)
+📢 ᴜᴘᴅᴀᴛᴇꜱ : [CK4U2](https://t.me/CK4U2)</b>
 """
 
 
@@ -104,7 +96,7 @@ sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
     #AFTER_SUCCESSFUL_UPLOAD_MSG = " OWNER : Lisa 💕\nFor the List of Telegram Bots"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Dᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs.\n\nTʜᴀɴᴋs Fᴏʀ Usɪɴɢ Mᴇ\n\nUᴘʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} ꜱᴇᴄᴏɴᴅꜱ.\n\nᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ\n\nɪᴘʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs"
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Cᴜsᴛᴏᴍ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛʜᴜᴍʙɴᴀɪʟ sᴀᴠᴇᴅ. Tʜɪs ɪᴍᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴜsᴇᴅ ɪɴ ᴛʜᴇ ᴠɪᴅᴇᴏ / ғɪʟᴇ."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Cᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴄʟᴇᴀʀᴇᴅ sᴜᴄᴄᴇsғᴜʟʟʏ"
@@ -120,7 +112,7 @@ sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /ren with custom thumbnail support"
-    AFTER_GET_GOFILE_LINK = " <b>File Name :</b> <code>{}</code>\n<b>File Size :</b> {}\n<b>File MD5 Checksum :</b> <code>{}</code>\n\n<b>⚡Link⚡ :</b> <code>{}</code>\n\n Valid untill 10 days of inactivity\nJoin : @TGBotsCollection"
+    AFTER_GET_GOFILE_LINK = " <b>File Name :</b> <code>{}</code>\n<b>File Size :</b> {}\n<b>File MD5 Checksum :</b> <code>{}</code>\n\n<b>⚡Link⚡ :</b> <code>{}</code>\n\n Valid untill 10 days of inactivity\n⚡ᴘᴏᴡᴇʀᴇᴅ ʙʏ @CK4U2"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS for screenshot of that specific time."""
     FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "First send /downloadmedia to any media so that it can be downloaded to my local. \nSend /storageinfo to know the media, that is currently downloaded."
     FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video Duration: {}\nSend /clearffmpegmedia to delete this media, from my storage.\nSend /trim HH:MM:SS [HH:MM:SS] to cu[l]t a small photo / video, from the above media."
